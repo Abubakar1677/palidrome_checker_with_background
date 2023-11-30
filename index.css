@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.opt-cont {
+    position: absolute;
+    /* height: 50em; */
+    margin-left: 69%;
+   margin-top: 20px;
+   background-color: black;
+   width: 140px;
+  
+   border-radius: 10px;
+
+  }
+  
+  select {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    gap: 10px;
+    padding: 2px;
+
+  }
+  select option{
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 900;
+  }
+
+
+#pal-cont{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(200, 255, 0);
+    margin: 0 auto;
+    margin-top: 5%;
+    width: fit-content;
+    border: 1px solid black;
+    box-shadow: 1px 1px 3px 1px ;
+    border-radius: 20px;
+    width: 80%;
+    height: 500px;
+
+}
+header{
+    background-color: red;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20pt;
+    text-transform: uppercase;
+    width: 700px;
+    border: 1px solid rgb(0, 195, 255);
+    border-radius: 20px;
+}
+#about{
+    background-color: rgba(165, 42, 42, 0.575);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(0, 195, 255);
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+#about b{
+    color: rgba(255, 0, 0, 0.575);
+    font-weight: 700;
+}
+#pal-exam{
+    color: rgb(38, 204, 245);
+    background-color: rgba(165, 42, 42, 0.575);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(0, 195, 255);
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-align: center;
+}
+#pal-exam #pal-exam-word{
+    color: yellow;
+}
+h1{
+    text-align: center;
+}
+#pal-instruc{
+    color: rgb(247, 0, 0);
+    background-color: rgba(99, 240, 245, 0.938);
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid rgb(96, 107, 110);
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-align: center;
+    width:70%
+
+}
+#pal-instruc p{
+    
+    padding: 10px;
+}
+#pal-space{
+    color: rgb(16, 17, 16);
+    width: 70%;
+    height: 20px;
+    font-size: 20pt;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px 10px 100px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+#pal-submit{
+    width: 40%;
+    height: 30px;
+    background-color: rgb(27, 230, 27);
+    color: rgb(2, 2, 2);
+    font-weight: 800;
+    font-size: 13pt;
+    text-transform: uppercase;
+}
+#congartDiv{
+    width:40% ;
+    height: 300px;
+    background-color: rgb(189, 240, 172);
+    position: absolute;
+    margin: -400px 10px 20px 370px;
+   text-align: center;
+    border: 1px double black;
+    border-radius: 20px;
+    padding: 30px;
+    display: none;
+   
+
+}
+#congartDiv h2{
+    color: rgb(41, 241, 51);
+    font-size: 30pt;
+    font-weight: 1000;
+    padding: 20px;    
+}
+
+#compl-Text{
+    color:red;
+    padding: 20px;
+    font-weight: 1000;
+}
+#compl-acc-Text{
+    color: rgb(38, 0, 255);
+    padding: 20px;
+    font-weight: 1000;
+    text-transform: capitalize;
+}
+#congart-btn{
+    width:40%;
+    height: 40px;
+    color: rgb(10, 10, 10);
+    font-size: 20pt;
+    background-color: aquamarine;
+    border: 1px white solid;
+    border-radius: 20px;
+    font-weight: 800;
+}
+#sorryDiv{
+    width:40% ;
+    height: 300px;
+    background-color: rgb(189, 240, 172);
+    position: absolute;
+    margin: -400px 10px 20px 370px;
+   text-align: center;
+    border: 1px double black;
+    border-radius: 20px;
+    padding: 30px;
+    display: none;
+}
+#sorryDiv h2{
+    color: rgb(241, 41, 51);
+    font-size: 30pt;
+    font-weight: 1000;
+    padding: 20px;    
+}
+#sorry-Text{
+    color:rgba(236, 33, 168, 0.979);
+    padding: 20px;
+    font-weight: 1000;
+}
+#sorry-acc-Text{
+    color: rgb(38, 0, 255);
+    padding: 20px;
+    font-weight: 1000;
+    text-transform: capitalize;
+}
+#sorry-btn{
+    width:40%;
+    height: 40px;
+    color: rgb(10, 10, 10);
+    font-size: 20pt;
+    background-color: aquamarine;
+    border: 1px white solid;
+    border-radius: 20px;
+    font-weight: 800;
+}

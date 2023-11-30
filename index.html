@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palindrome</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <form>
+        <div id="pal-cont">
+
+            <div class="opt-cont">
+                <select>
+                    <option id="red-opt" style="color: red;">Red</option>
+                    <option id="green-opt" style="color: green;">Green</option>
+                    <option id="gold-opt" style="color: gold;">Gold</option>
+                    <option id="pink-opt" style="color: pink;">pink</option>
+                    <option id="silver-opt" style="color: silver;">silver</option>
+                    <option id="blue-opt" style="color: blue;">Blue</option>
+                    <option id="aqua-opt" style="color: aquamarine;">Aquamarine</option>
+                    <option id="gray-opt" style="color: gray;">Grey</option>
+                    <option id="random" >RANDOM</option>
+                </select>
+            </div>
+         
+      
+    
+            <header>palindrome</header>
+        <h2 id="about"><b>do you know :</b>
+            A palindrome is a word, sentence, verse,
+            or even number that reads the same backward or forward</h2>
+            
+            <p id="pal-exam">some example of palindrome include :<span id="pal-exam-word">"DEED","PEEP", "WOW"</span> </p>
+                <h1>Game Start Below</h1>
+            <span id="pal-instruc">
+                <p>Let's see how many palindrome you could make!!</p>
+                <input id="pal-space" placeholder="input your palindrome here !!"><br>
+                <input id="pal-submit" type="button" value="submit"></input>
+            </span>
+            
+        
+        </div>
+
+        <div id="congartDiv">
+
+            <h2>Hurry!!!!!!!!!</h2>
+            <p id="compl-Text">You've got it right !! <span id="brag-word" style="color: brown;font-style: italic;">Fantastic</span></p>
+            <p id="compl-acc-Text"><span id="userPal" style="color: rgb(204, 13, 51);font-size: 20pt;">"deed"</span> is a palindrome</p>
+            <button id="congart-btn">Save</button>
+        </div>
+
+        <div id="sorryDiv">
+
+            <h2>ouch !!!!!!!!!</h2>
+            <p id="sorry-Text">Really sorry dear !!</p>
+            <p id="sorry-acc-Text"><span id="sorryPal" style="color: rgb(250, 44, 8);font-size: 20pt;">"deed"</span> is <b style="color: red;">NOT</b> palindrome</p>
+            <button id="sorry-btn">Try Again</button>
+        </div>
+    </form>
+    
+    
+    <script defer src="./index.js"></script>
+</body>
+</html>
